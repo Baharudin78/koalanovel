@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "714239678841",
+    "project_id": "koala-novel-app",
+    "storage_bucket": "koala-novel-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714239678841:android:a07c7c2713d8fd474d77a8",
+        "android_client_info": {
+          "package_name": "com.divinetechs.ebooksapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714239678841-e3ra20s4elldpkqan51v6kje98vptfrl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCApgmfgTJDofoDy6uTOV2bZ-7vFnZ-d3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714239678841-e3ra20s4elldpkqan51v6kje98vptfrl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

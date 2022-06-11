@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.PrimeMembership">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--ToolBar-->
+        <include layout="@layout/toolbar_with_back" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <!--Bottom-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="center"
+                    android:text="Explore Prime Offer\nClaim Extraordinary Rewards"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_18" />
+
+                <LinearLayout
+                    android:id="@+id/ly_below"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/ly_top"
+                    android:background="@drawable/round_bor_top"
+                    android:backgroundTint="?attr/cardbackround"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <!--Prime Benefits-->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:orientation="horizontal">
+
+                                    <View
+                                        android:layout_width="3dp"
+                                        android:layout_height="20dp"
+                                        android:layout_centerVertical="true"
+                                        android:layout_marginTop="3dp"
+                                        android:layout_marginBottom="3dp"
+                                        android:background="@color/colorPrimaryDark" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginStart="10dp"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:gravity="center_vertical"
+                                        android:text="@string/Prime_Benefits"
+                                        android:textColor="?attr/textcolor"
+                                        android:textSize="@dimen/text_16" />
+
+                                    <TextView
+                                        android:id="@+id/txt_viewall_benefits"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_alignParentEnd="true"
+                                        android:layout_centerVertical="true"
+                                        android:layout_marginEnd="15dp"
+                                        android:gravity="center_vertical"
+                                        android:text="@string/View_All"
+                                        android:textColor="?attr/viewtextcolor"
+                                        android:textSize="@dimen/text_14_" />
+
+                                    <TextView
+                                        android:layout_width="12dp"
+                                        android:layout_height="12dp"
+                                        android:layout_alignParentEnd="true"
+                                        android:layout_centerVertical="true"
+                                        android:layout_marginTop="1dp"
+                                        android:background="@drawable/ic_arrow_right"
+                                        android:backgroundTint="?attr/viewtextcolor" />
+
+                                </RelativeLayout>
+
+                                <!--Prime Benefits-->
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:background="@drawable/round_bg_watch_video"
+                                    android:backgroundTint="@color/colorAccent"
+                                    android:visibility="visible">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="8dp"
+                                        android:orientation="vertical">
+
+                                        <!--Prime Benefits-->
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_margin="5dp"
+                                            android:orientation="vertical">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="1"
+                                                android:gravity="center_vertical"
+                                                android:orientation="horizontal">
+
+                                                <LinearLayout
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_weight="0.18"
+                                                    android:gravity="center"
+                                                    android:orientation="vertical">
+
+                                                    <LinearLayout
+                                                        android:layout_width="30dp"
+                                                        android:layout_height="30dp"
+                                                        android:background="@drawable/circle"
+                                                        android:backgroundTint="@color/white"
+                                                        android:gravity="center"
+                                                        android:orientation="vertical">
+
+                                                        <TextView
+                                                            android:layout_width="15dp"
+                                                            android:layout_height="15dp"
+                                                            android:background="@drawable/ic_gift"
+                                                            android:gravity="center" />
+
+                                                    </LinearLayout>
+
+                                                </LinearLayout>
+
+                                                <LinearLayout
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.88"
+                                                    android:gravity="center_vertical"
+                                                    android:orientation="vertical">
+
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:fontFamily="@font/roboto_medium"
+                                                        android:gravity="center_vertical"
+                                                        android:text="Daily Claim Extra Vouchers"
+                                                        android:textColor="@color/white"
+                                                        android:textSize="@dimen/text_14_" />
+
+                                                </LinearLayout>
+
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="0dp"
+                                                android:layout_marginTop="10dp"
+                                                android:layout_marginBottom="10dp"
+                                                android:layout_weight="1"
+                                                android:gravity="center_vertical"
+                                                android:orientation="horizontal">
+
+                                                <LinearLayout
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_weight="0.18"
+                                                    android:gravity="center"
+                                                    android:orientation="vertical">
+
+                                                    <LinearLayout
+                                                        android:layout_width="30dp"
+                                                        android:layout_height="30dp"
+                                                        android:background="@drawable/circle"
+                                                        android:backgroundTint="@color/white"
+                                                        android:gravity="center"
+                                                        android:orientation="vertical">
+
+                                                        <TextView
+                                                            android:layout_width="15dp"
+                                                            android:layout_height="15dp"
+                                                            android:background="@drawable/ic_gift"
+                                                            android:gravity="center" />
+
+                                                    </LinearLayout>
+
+                                                </LinearLayout>
+
+                                                <LinearLayout
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.88"
+                                                    android:gravity="center_vertical"
+                                                    android:orientation="vertical">
+
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:fontFamily="@font/roboto_medium"
+                                                        android:gravity="center_vertical"
+                                                        android:text="Additional 900 Gems Monthly"
+                                                        android:textColor="@color/white"
+                                                        android:textSize="@dimen/text_14_" />
+
+                                                </LinearLayout>
+
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="1"
+                                                android:gravity="center_vertical"
+                                                android:orientation="horizontal">
+
+                                                <LinearLayout
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_weight="0.18"
+                                                    android:gravity="center"
+                                                    android:orientation="vertical">
+
+                                                    <LinearLayout
+                                                        android:layout_width="30dp"
+                                                        android:layout_height="30dp"
+                                                        android:background="@drawable/circle"
+                                                        android:backgroundTint="@color/white"
+                                                        android:gravity="center"
+                                                        android:orientation="vertical">
+
+                                                        <TextView
+                                                            android:layout_width="15dp"
+                                                            android:layout_height="15dp"
+                                                            android:background="@drawable/ic_gift"
+                                                            android:gravity="center" />
+
+                                                    </LinearLayout>
+
+                                                </LinearLayout>
+
+                                                <LinearLayout
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="0.88"
+                                                    android:gravity="center_vertical"
+                                                    android:orientation="vertical">
+
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:fontFamily="@font/roboto_medium"
+                                                        android:gravity="center_vertical"
+                                                        android:text="Honorable Prime Badge"
+                                                        android:textColor="@color/white"
+                                                        android:textSize="@dimen/text_14_" />
+
+                                                </LinearLayout>
+
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <!--Upgrade for year-->
+                            <LinearLayout
+                                android:id="@+id/ly_upgrade_for_year"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_margin="12dp"
+                                android:background="@drawable/round_bg_yellow"
+                                android:backgroundTint="@color/colorAccent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_upgrade_year"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:gravity="center"
+                                    android:text="Upgrade for US $ 69.99 / year (save US $ 14)"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="@dimen/text_14_" />
+
+                            </LinearLayout>
+
+                            <!--Upgrade for month-->
+                            <LinearLayout
+                                android:id="@+id/ly_upgrade_for_month"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="12dp"
+                                android:layout_marginEnd="12dp"
+                                android:background="@drawable/round_bor_bg_black"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_upgrade_month"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:gravity="center"
+                                    android:text="Upgrade for US $ 6.99 / month"
+                                    android:textColor="?attr/textcolor"
+                                    android:textSize="@dimen/text_14_" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="Renew automatically. Cancel anytime through GooglePlay"
+                                android:textColor="?attr/textcolor_desc"
+                                android:textSize="@dimen/text_14" />
+
+                            <!--Exclusive for Newcomer-->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:layout_marginTop="12dp"
+                                android:orientation="horizontal">
+
+                                <View
+                                    android:layout_width="3dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:background="@color/colorPrimaryDark" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginStart="10dp"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:gravity="center_vertical"
+                                    android:text="@string/Exclusive_for_Newcomer"
+                                    android:textColor="?attr/textcolor"
+                                    android:textSize="@dimen/text_16" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:visibility="visible"
+                                    app:cardBackgroundColor="?attr/cardbackround"
+                                    app:cardCornerRadius="8dp"
+                                    app:cardUseCompatPadding="true">
+
+                                    <LinearLayout
+                                        android:id="@+id/ly_for_newcomer"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="8dp"
+                                        android:orientation="vertical">
+
+                                        <!--Vouchers and Gems-->
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_margin="5dp"
+                                            android:orientation="horizontal">
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_weight="0.18"
+                                                android:gravity="center"
+                                                android:orientation="horizontal">
+
+                                                <TextView
+                                                    android:layout_width="30dp"
+                                                    android:layout_height="30dp"
+                                                    android:background="@drawable/ic_gift"
+                                                    android:gravity="center" />
+
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="0.67"
+                                                android:orientation="horizontal">
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:fontFamily="@font/roboto_medium"
+                                                    android:gravity="center_vertical"
+                                                    android:text="Obtain 1000 Coins at Once"
+                                                    android:textColor="?attr/textcolor"
+                                                    android:textSize="@dimen/text_14_" />
+
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="0.15"
+                                                android:gravity="center"
+                                                android:orientation="horizontal">
+
+                                                <TextView
+                                                    android:layout_width="18dp"
+                                                    android:layout_height="18dp"
+                                                    android:background="@drawable/ic_lock"
+                                                    android:backgroundTint="?attr/icontintcolor"
+                                                    android:gravity="center" />
+
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                            </LinearLayout>
+
+                            <!--Prime Lists for Gems-->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="12dp"
+                                android:orientation="vertical">
+
+                                <!--Title-->
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:orientation="horizontal">
+
+                                    <View
+                                        android:layout_width="3dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginTop="3dp"
+                                        android:layout_marginBottom="3dp"
+                                        android:background="@color/colorPrimaryDark" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginStart="10dp"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:gravity="center_vertical"
+                                        android:text="@string/Prime_Lists_for_Gems"
+                                        android:textColor="?attr/textcolor"
+                                        android:textSize="@dimen/text_16" />
+
+                                </LinearLayout>
+
+                                <!--RecyclerView-->
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                    <androidx.recyclerview.widget.RecyclerView
+                                        android:id="@+id/rv_prime_book"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:nestedScrollingEnabled="false"
+                                        android:scrollbars="none"
+                                        android:visibility="visible" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <!--View all books-->
+                            <LinearLayout
+                                android:id="@+id/ly_viewall_books"
+                                android:layout_width="150dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/round_bor_bg_black"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:gravity="center"
+                                    android:text="@string/View_all_books"
+                                    android:textColor="?attr/textcolor"
+                                    android:textSize="@dimen/text_14_" />
+
+                            </LinearLayout>
+
+                            <!--About Prime-->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:orientation="vertical">
+
+                                <!--Title-->
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:orientation="horizontal">
+
+                                    <View
+                                        android:layout_width="3dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginTop="3dp"
+                                        android:layout_marginBottom="3dp"
+                                        android:background="@color/colorPrimaryDark" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginStart="10dp"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:gravity="center_vertical"
+                                        android:text="@string/About_Prime"
+                                        android:textColor="?attr/textcolor"
+                                        android:textSize="@dimen/text_16" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/txt_about_prime"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:gravity="center_vertical"
+                                    android:lineSpacingExtra="5dp"
+                                    android:text="1. Gems have the same value with coins. All Vouchers and Gems will expire overtime. Please use before deadline.\n
+2. Gems have the same value with coins. All Vouchers and Gems will expire overtime. Please use before deadline.\n
+3. Gems have the same value with coins. All Vouchers and Gems will expire overtime. Please use before deadline."
+                                    android:textColor="?attr/textcolor_desc"
+                                    android:textSize="@dimen/text_14_" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+</LinearLayout>

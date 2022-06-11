@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ed683c</color>
+    <color name="colorPrimaryDark">#ed683c</color>
+    <color name="colorAccent">#e93e3a</color>
+
+    <color name="text_red">#eb4827</color>
+    <color name="text_darkBlack">#000</color>
+    <color name="text_white">#FFFF</color>
+    <color name="text_whiteLight">#F5F5F5</color>
+    <color name="text_black">#333333</color>
+    <color name="text_gray">#7c7c7c</color>
+    <color name="text_lightGray">#c3c3c3</color>
+    <color name="text_blue">#e93e3a</color>
+    <color name="text_color_primary">#ed683c</color>
+    <color name="text_color_primaryDark">#ed683c</color>
+
+    <color name="cat_1">#BDFFCA</color>
+    <color name="cat_2">#FFB8C4</color>
+    <color name="cat_3">#FFDA81</color>
+    <color name="cat_4">#C9C8CD</color>
+    <color name="cat_5">#f3903f</color>
+
+    <color name="introTop1">#f3903f</color>
+    <color name="yellowBG">#ffd202</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_light">#F5F5F5</color>
+    <color name="green">#71bf45</color>
+    <color name="blue">#e93e3a</color>
+
+    <color name="lightBlack">#1d1d1d</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+
+    <color name="gray_light">#83e1e1e1</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_60">#666666</color>
+    <color name="show_more">#505662</color>
+    <color name="extraDarkGray">#565656</color>
+    <color name="darkGray">#6f7982</color>
+    <color name="Gray">#a0a0a0</color>
+    <color name="lightGray">#c3c3c3</color>
+    <color name="extraLightGray">#f5f5f5</color>
+    <color name="slateGray">#9eaab6</color>
+
+    <color name="font_dark">#293643</color>
+    <color name="font_light">#fff00a</color>
+
+    <!-- Screens background color-->
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#fff33b</color>
+    <color name="dot_dark_screen3">#fff33b</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#fff33b</color>
+    <color name="dot_light_screen3">#fff33d</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <color name="view_setting">#D7D7D7</color>
+    <color name="textView_setting">#4A4A4A</color>
+
+    <color name="overlay_dark_30">#4D000000</color>
+
+
+    <!--DayNightcolor-->
+
+    <color name="gmail">#cf4332</color>
+    <color name="fb">#e93e3a</color>
+
+    <color name="gray">#A3A2A2</color>
+    <color name="font_black">#231010</color>
+
+</resources>
